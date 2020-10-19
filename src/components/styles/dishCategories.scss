@@ -1,0 +1,165 @@
+.categories-container {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  padding: 2px;
+  .each-category {
+    margin-right: 2px;
+    min-width: 250px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  .selected-category {
+    border-bottom: 2px salmon solid;
+    border-right: 2px salmon solid;
+    // background-color: linen;
+    background-image: linear-gradient(
+      to right,
+      white,
+      rgba(243, 193, 188, 0.822)
+    );
+  }
+}
+
+.dishes-container {
+  .individual-dish-container {
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid rgb(180, 177, 177);
+    justify-content: space-between;
+
+    .dish-image {
+      width: 100px;
+
+      img {
+        width: 100%;
+        max-height: 100px;
+        min-height: 100px;
+        border-radius: 10px;
+      }
+    }
+
+    .dish-details {
+      width: 83vw;
+      .dish-name-and-type {
+        display: flex;
+        align-items: center;
+        .non-veg {
+          min-width: 14px;
+          max-height: 13px;
+          border: 1px solid red;
+          padding: 1px;
+          .circle {
+            background-color: red;
+            border-radius: 50%;
+            width: 11px;
+            height: 13px;
+            margin: auto;
+          }
+        }
+        .veg {
+          min-width: 14px;
+          max-height: 13px;
+          border: 1px solid green;
+          padding: 1px;
+          .circle {
+            background-color: green;
+            border-radius: 50%;
+            width: 11px;
+            height: 13px;
+            margin: auto;
+          }
+        }
+
+        p {
+          font-size: 19px;
+          font-family: "Times New Roman", Times, serif;
+          font-weight: 800;
+          margin-left: 8px;
+        }
+      }
+
+      .amount-and-calories {
+        display: flex;
+        justify-content: space-between;
+
+        .calories {
+          margin-right: 5px;
+        }
+      }
+      .food-description {
+        color: grey;
+      }
+
+      .not-available {
+        color: red;
+      }
+
+      .adding-btn {
+        background-color: rgb(96, 240, 96);
+        width: 100px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 2px;
+
+        p {
+          text-align: center;
+          border-right: 1px solid black;
+          border-left: 1px solid black;
+          padding: 5px;
+        }
+        button {
+          padding: 5px;
+          background-color: rgb(96, 240, 96);
+          border: none;
+          outline: none;
+          cursor: pointer;
+        }
+
+        .neg {
+          border-radius: 10px 0 0 10px;
+        }
+        .pos {
+          border-radius: 0 10px 10px 0;
+        }
+
+        button:active {
+          background-color: rgb(131, 212, 76);
+        }
+      }
+    }
+  }
+}
+
+.customization {
+  color: red;
+  cursor: pointer;
+
+  .add-ons {
+    color: rgb(62, 125, 161);
+    font-style: italic;
+  }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 6px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+}

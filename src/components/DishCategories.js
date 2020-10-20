@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { restoData } from "../api/data";
+import { restoData } from "../data";
 
 import "./styles/dishCategories.scss";
 import DishesList from "./DishesList";

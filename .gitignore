@@ -23,8 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .vercel
-<<<<<<< HEAD
 
-.gitignore
-=======
->>>>>>> 67e84e51ea5c6d3407144099745a15d16e3976aa
+# Local Netlify folder
+.netlify

@@ -41,13 +41,11 @@ export default (state = { addedItems: [], totalItems: 0 }, action) => {
           alreadyExist.quantity -= 1;
           return { ...state };
         }
+        state.addedItems = state.addedItems.filter(
+          ({ dish_id }) => dish_id !== action.id
+        );
+        state.totalItems -= 1;
       }
-
-      state.addedItems = state.addedItems.filter(
-        ({ dish_id }) => dish_id !== action.id
-      );
-      state.totalItems -= 1;
-
       return { ...state };
 
     default:

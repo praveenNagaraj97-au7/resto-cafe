@@ -2,8 +2,7 @@ export const restoData = [
   {
     restaurant_id: "1010000001",
     restaurant_name: "UNI Resto Cafe",
-    restaurant_image:
-      "http://restaurants.unicomerp.net/images/Restaurant/1010000001.jpg",
+    restaurant_image: "https://i.imgur.com/gLlF09p.jpg",
     table_id: "1",
     table_name: "Riyadh-Table 01",
     branch_name: "UNI Resto Cafe-Riyadh",
@@ -22,8 +21,7 @@ export const restoData = [
             dish_id: "100000001",
             dish_name: "Spinach Salad",
             dish_price: 7.95,
-            dish_image:
-              "http://restaurants.unicomerp.net//images/Restaurant/1010000001/Item/Items/100000001.jpg",
+            dish_image: "https://i.imgur.com/PoJfqsD.jpg",
             dish_currency: "SAR",
             dish_calories: 15.0,
             dish_description:
@@ -81,8 +79,7 @@ export const restoData = [
             dish_id: "100000003",
             dish_name: "Traditional New England Seafood Chowder",
             dish_price: 12.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000003.jpg",
+            dish_image: "https://i.imgur.com/l3PKuH0.jpg",
             dish_currency: "SAR",
             dish_calories: 30.0,
             dish_description: "with clams, scallops, and shrimp,",
@@ -96,8 +93,7 @@ export const restoData = [
             dish_id: "100000004",
             dish_name: "Salad Bar Soup",
             dish_price: 5.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000004.jpg",
+            dish_image: "https://i.imgur.com/AkHXoag.jpg",
             dish_currency: "SAR",
             dish_calories: 30.0,
             dish_description: "Flour Mixed with fresh green leafy vegetables",
@@ -111,8 +107,7 @@ export const restoData = [
             dish_id: "100000005",
             dish_name: "chicken-soup",
             dish_price: 14.89,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000005.jpg",
+            dish_image: "https://i.imgur.com/PorTefm.jpg",
             dish_currency: "SAR",
             dish_calories: 30.0,
             dish_description: "fresh as home-made chicken-soup",
@@ -126,8 +121,7 @@ export const restoData = [
             dish_id: "100000006",
             dish_name: "One-Pot-Vegetarian",
             dish_price: 22.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000006.jpg",
+            dish_image: "https://i.imgur.com/GebmClM.jpg",
             dish_currency: "SAR",
             dish_calories: 25.0,
             dish_description: "One-Pot-Vegetarian-Orzo-Vegetable-Soup",
@@ -141,8 +135,7 @@ export const restoData = [
             dish_id: "100000007",
             dish_name: "low-carb-chicken-soup",
             dish_price: 25.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000007.jpg",
+            dish_image: "https://i.imgur.com/y9vjbsn.jpg",
             dish_currency: "SAR",
             dish_calories: 45.0,
             dish_description:
@@ -167,8 +160,7 @@ export const restoData = [
             dish_id: "100000008",
             dish_name: "Traditional Filet Mignon",
             dish_price: 24.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000008.jpg",
+            dish_image: "https://i.imgur.com/nepBV8D.jpg",
             dish_currency: "SAR",
             dish_calories: 50.0,
             dish_description:
@@ -218,8 +210,7 @@ export const restoData = [
             dish_id: "100000009",
             dish_name: "Bacon Bourbon Tenderloin Tips",
             dish_price: 16.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000009.jpg",
+            dish_image: "https://i.imgur.com/Kim2jDa.jpg",
             dish_currency: "SAR",
             dish_calories: 110.0,
             dish_description:
@@ -234,8 +225,7 @@ export const restoData = [
             dish_id: "100000010",
             dish_name: "Rustlers Ribeye",
             dish_price: 18.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000010.jpg",
+            dish_image: "https://i.imgur.com/ix11VUq.jpg",
             dish_currency: "SAR",
             dish_calories: 200.0,
             dish_description:
@@ -250,8 +240,7 @@ export const restoData = [
             dish_id: "100000011",
             dish_name: "Surf and Turf",
             dish_price: 17.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/Item/Item_100000011.jpg",
+            dish_image: "https://i.imgur.com/KvAGbZR.jpg",
             dish_currency: "SAR",
             dish_calories: 250.0,
             dish_description:
@@ -266,8 +255,7 @@ export const restoData = [
             dish_id: "100000012",
             dish_name: "Roast Pork Loin",
             dish_price: 23.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000012.jpg",
+            dish_image: "https://i.imgur.com/qbZRVH5.jpg",
             dish_currency: "SAR",
             dish_calories: 500.0,
             dish_description:
@@ -282,8 +270,7 @@ export const restoData = [
             dish_id: "100000014",
             dish_name: "Veal Saltimbocca",
             dish_price: 12.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000014.jpg",
+            dish_image: "https://i.imgur.com/7bp5AEW.jpg",
             dish_currency: "SAR",
             dish_calories: 320.0,
             dish_description:
@@ -308,8 +295,7 @@ export const restoData = [
             dish_id: "100000016",
             dish_name: "A.D.’s Chicken Saltimbocca",
             dish_price: 22.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000016.jpg",
+            dish_image: "https://i.imgur.com/RX9onWx.jpg",
             dish_currency: "SAR",
             dish_calories: 75.0,
             dish_description:
@@ -324,8 +310,7 @@ export const restoData = [
             dish_id: "100000017",
             dish_name: "Emeril’s Chicken",
             dish_price: 15.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/1010000001/Item/Items/100000017.jpg",
+            dish_image: "https://i.imgur.com/J50jPyH.jpg",
             dish_currency: "SAR",
             dish_calories: 80.0,
             dish_description:
@@ -350,8 +335,7 @@ export const restoData = [
             dish_id: "100000018",
             dish_name: "Seafood Sauté or Alfredo",
             dish_price: 25.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/Item/Item_100000018.jpg",
+            dish_image: "https://i.imgur.com/1QaHAnZ.jpg",
             dish_currency: "SAR",
             dish_calories: 150.0,
             dish_description:
@@ -366,8 +350,7 @@ export const restoData = [
             dish_id: "100000019",
             dish_name: "Sautéed Seafood Caprese",
             dish_price: 23.5,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/Item/Item_100000019.jpg",
+            dish_image: "https://i.imgur.com/Ur5Iz3t.jpg",
             dish_currency: "SAR",
             dish_calories: 230.0,
             dish_description:
@@ -392,8 +375,7 @@ export const restoData = [
             dish_id: "100000013",
             dish_name: "Hyderabadi Biryani",
             dish_price: 11.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/Item/Item_100000013.jpg",
+            dish_image: "https://i.imgur.com/JWTruwi.jpg",
             dish_currency: "SAR",
             dish_calories: 150.0,
             dish_description:
@@ -408,8 +390,7 @@ export const restoData = [
             dish_id: "100000015",
             dish_name: "Keema Biryani",
             dish_price: 21.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/Item/Item_100000015.jpg",
+            dish_image: "https://i.imgur.com/6USbiXM.jpg",
             dish_currency: "SAR",
             dish_calories: 120.0,
             dish_description:
@@ -424,8 +405,7 @@ export const restoData = [
             dish_id: "100000028",
             dish_name: "gpl",
             dish_price: 36.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/Item/Item_100000028.jpg",
+            dish_image: "https://i.imgur.com/RVCWszh.jpg",
             dish_currency: "SAR",
             dish_calories: 222.0,
             dish_description: "sss",
@@ -449,8 +429,7 @@ export const restoData = [
             dish_id: "100000026",
             dish_name: "Burger",
             dish_price: 30.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/Item/Item_100000026.jpg",
+            dish_image: "https://i.imgur.com/7hmYZ5o.jpg",
             dish_currency: "SAR",
             dish_calories: 610.0,
             dish_description: "Burger",
@@ -576,7 +555,7 @@ export const restoData = [
             dish_id: "100000027",
             dish_name: "Pizza",
             dish_price: 50.0,
-            dish_image: "",
+            dish_image: "https://i.imgur.com/pr3uLur.png",
             dish_currency: "SAR",
             dish_calories: 20.0,
             dish_description: "pizza",
@@ -699,8 +678,7 @@ export const restoData = [
             dish_id: "100000029",
             dish_name: "Tacos",
             dish_price: 25.0,
-            dish_image:
-              "http://restaurants.unicomerp.net/images/Restaurant/Item/Item_100000029.jpg",
+            dish_image: "https://i.imgur.com/yz5PpNh.jpg",
             dish_currency: "SAR",
             dish_calories: 225.0,
             dish_description: "Mexican Street Tacos",

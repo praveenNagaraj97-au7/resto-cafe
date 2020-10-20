@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { restoData } from "../api/data";
 
 import "./styles/dishCategories.scss";
-import DishesAvailable from "./DishesAvailable";
+import DishesList from "./DishesList";
 
 export default () => {
   const [selected, setSelected] = useState(restoData[0].table_menu_list[0]);
@@ -32,7 +32,7 @@ export default () => {
         <CategoryOptions />
       </div>
       <div className='dishes-container'>
-        <DishesAvailable selected={selected} />
+        <DishesList selected={selected} />
       </div>
     </>
   );

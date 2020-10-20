@@ -12,7 +12,6 @@ const App = () => {
       <section id='header'>
         <Header />
       </section>
-      <hr />
       <section id='content'>
         <Router history={history}>
           <Switch>

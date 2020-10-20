@@ -1,41 +1,43 @@
 .header {
-  padding: 5px;
   border-radius: 25px;
   display: flex;
   justify-content: space-between;
+  color: rgb(82, 79, 79);
+  align-items: center;
   .company-name {
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
   }
 
   .cart-container {
+    display: flex;
+    align-items: center;
+
     .fa-size {
-      font-size: 24px;
+      font-size: 33px;
     }
 
     .fa-stack[data-count]:after {
       position: absolute;
       right: 0%;
-      top: 0%;
+      top: 24%;
       content: attr(data-count);
-      font-size: 40%;
-      padding: 0.6em;
+      font-size: 51%;
+      padding: 0.3em;
       line-height: 0.75em;
-      color: rgb(5, 5, 5);
       color: white;
       text-align: center;
-      min-width: 2em;
+      min-width: 1em;
       font-weight: bold;
-      background: rgb(0, 0, 0);
+      background: red;
       border-radius: 99px;
     }
     .fa-circle {
-      color: #000000;
+      color: white;
     }
 
-    .red-cart {
-      color: #f85e5e;
-      background: white;
+    .fa-inverse {
+      color: grey;
     }
   }
 }

@@ -12,7 +12,7 @@ export default ({ addonCat }) => {
       <div className='customization'>
         <p onClick={() => setShowCustomization(!showCustomization)}>
           customization available
-          <i className={`arrow ${showCustomization ? "up" : "down"}`}></i>
+          {/* <i className={`arrow ${showCustomization ? "up" : "down"}`}></i> */}
         </p>
         {showCustomization && (
           <div>

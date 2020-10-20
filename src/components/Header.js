@@ -19,9 +19,10 @@ export default () => {
   return (
     <div className='header'>
       <div className='company-name' onClick={() => history.push("/")}>
-        Resto Cafe
+        UNI Resto Cafe
       </div>
       <div className='cart-container'>
+        <p>My Orders</p>
         <span className='fa-stack fa-size has-badge' data-count={count}>
           <i className='fa fa-circle fa-stack-2x'></i>
           <i className='fa fa-shopping-cart fa-stack-1x fa-inverse'></i>
